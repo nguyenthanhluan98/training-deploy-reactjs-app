@@ -1,0 +1,15 @@
+.grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+
+.grid-item {
+    width: calc(25% - 20px);
+    background-color: #e8eaf6;
+    margin: 5px 10px;
+}
+
+.grid-item button {
+    margin: 10px;
+}

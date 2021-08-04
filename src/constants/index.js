@@ -1,0 +1,1 @@
+export const STATIC_HOST = "https://60f8bf5dee56ef0017975a94.mockapi.io/api/v1/movies";
