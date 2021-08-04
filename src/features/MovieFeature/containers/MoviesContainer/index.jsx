@@ -27,7 +27,6 @@ function MoviesContainer() {
       const data = await fetch(`${STATIC_HOST}/${movieId}`, {
         method: "DELETE",
       });
-      console.log("data from delete method: ", data);
       setFlagChange(!flagChange);
     } catch (error) {
       console.log(error);
